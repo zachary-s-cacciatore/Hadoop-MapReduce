@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 # Q2: highest sale
 
