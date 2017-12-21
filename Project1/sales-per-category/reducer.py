@@ -1,10 +1,10 @@
 #!usr/bin/python
 
-# Q2: highest sale
+# Q1: sales per category
 
 import sys
 
-maxSale = 0
+salesTotal = 0
 oldKey = None
 
 for line in sys.stdin:
@@ -15,12 +15,12 @@ for line in sys.stdin:
     thisKey, thisSale = data_mapped
 
     if oldKey and oldKey != thisKey:
-        print oldKey, "\t", maxSale
-        maxSale = 0
+        print oldKey, "\t", salesTotal
+        salesTotal = 0
 
     oldKey = thisKey
-    if maxSale < float(thisSale): 
-        maxSale = float(thisSale)
+    salesTotal += float(thisSale)
 
 if oldKey != None:
-    print oldKey, "\t", maxSale
+    print oldKey, "\t", salesTotal
+
