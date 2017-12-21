@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 # Q3: total sales annd number of sales
 
