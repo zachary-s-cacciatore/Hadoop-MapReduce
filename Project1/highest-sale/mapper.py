@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 # Format of each line is:
 # date\ttime\tstore name\titem description\tcost\tmethod of payment
