@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 # Q1: sales per category
 
